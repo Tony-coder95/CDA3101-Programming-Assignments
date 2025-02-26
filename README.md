@@ -22,7 +22,6 @@ The ARM program performs the following tasks:
 Use the following algorithm to calculate the **nth** number in the Fibonacci sequence.  
 Inputs will be from **1 to 10**, with the following expected outputs:
 
-```scss
 fib(1) → 0
 fib(2) → 1
 fib(3) → 1
