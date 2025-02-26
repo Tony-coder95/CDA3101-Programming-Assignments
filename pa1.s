@@ -1,4 +1,4 @@
-## got a 90%
+// got a 90%
 .section .data
 
 input_prompt:   .asciz "Input a string: "
