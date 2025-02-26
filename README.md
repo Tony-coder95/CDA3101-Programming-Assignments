@@ -18,6 +18,14 @@ The ARM program performs the following tasks:
 
 # Programming Assignment 2 - Recursive Fibonacci in ARM Assembly
 
+## **Overview**
+This repository contains the solution for **Programming Assignment 2** of CDA3101.  
+The goal of this assignment is to implement an **ARM Assembly** program that:
+- Reads an integer input (1 to 10).
+- Recursively calculates the **nth** number in the Fibonacci sequence.
+- Outputs the computed Fibonacci number.
+This assignment focuses on understanding **recursion** and **procedure calls** in ARM Assembly.
+
 ## **Objective**
 Use the following algorithm to calculate the **nth** number in the Fibonacci sequence.  
 Inputs will be from **1 to 10**, with the following expected outputs:
