@@ -15,3 +15,35 @@ The ARM program performs the following tasks:
 
 ## **Files**
 - `pa1.s` → ARM Assembly source code for the program.
+
+# Programming Assignment 2 - Recursive Fibonacci in ARM Assembly
+
+## **Objective**
+Use the following algorithm to calculate the **nth** number in the Fibonacci sequence.  
+Inputs will be from **1 to 10**, with the following expected outputs:
+
+```scss
+fib(1) → 0
+fib(2) → 1
+fib(3) → 1
+fib(4) → 2
+fib(5) → 3
+and so on...
+
+## **Requirements and Specifications**
+- **Global variables cannot be used** to store inputs. Use the **stack** instead.
+- `X19-X27` are **reserved global variables** and **cannot be used in the recursive function.**
+- **Main function:** Can use any registers, including `X19-X27`.
+- **Recursive function:** Must follow stack frame conventions:
+  - Allocate stack space
+  - Save the return address and arguments on the stack
+  - Use `BL` for recursive calls
+  - Restore the return address and arguments after the recursive call.
+
+---
+
+## **Testing Instructions**
+```sh
+gcc -o pa2 pa2.s
+stdbuf -oL ./pa2 <1.in >test-1.out
+diff test-1.out 1.out
