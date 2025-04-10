@@ -1,6 +1,5 @@
 // got a 90%
 .section .data
-
 input_prompt:   .asciz "Input a string: "
 input_spec:     .asciz "%[^\n]"
 length_format:  .asciz "String length: %d\n"
