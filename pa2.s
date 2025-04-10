@@ -1,3 +1,4 @@
+// Got a 100%
 .section .data
 input_prompt:   .asciz "Please enter a number betwen 1 and 10 \n"
 input_spec:     .asciz "%d"
